@@ -4,7 +4,7 @@ import Sdata from './Sdata';
 
 const App = () => (
 <>
-<h1 className='heading_style'>List of Top 6 Movies in Hotstar</h1>
+<h1 className='heading_style'>List of Top 6 Movies in Hotstar Specials</h1>
 {Sdata.map((val,index) => {
   console.log(index);
   return(
